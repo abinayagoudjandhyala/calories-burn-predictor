@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained calories prediction model
-loaded_model = pickle.load(open(r'C:\Users\shara\OneDrive\Desktop\calories burnt\trained_model.sav', 'rb'))
+loaded_model = pickle.load(open(r'https://github.com/abinayagoudjandhyala/calories-burn-predictor/blob/main/trained_model.sav', 'rb'))
 
 
 # Function for prediction
